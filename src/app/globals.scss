@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--white: #efefef;
+	--white-transparent: hsla(0, 0%, 94%, 0);
+	--grey: #b0b0b0;
+	--grey-transparent: hsla(0, 0%, 69%, 0);
+	--black: #000;
+	--black-transparent: transparent;
+	--blue: #98bfff;
+	--gradient-blue: #8ab6fc4e;
+}
+
+*::selection {
+	color: var(--black);
+	background: var(--blue);
+}
+
+body {
+	color: var(--white);
+	background-color: var(--black);
+	height: 100%;
+	overflow: hidden;
+}

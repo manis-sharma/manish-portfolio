@@ -1,0 +1,36 @@
+.projects {
+	@apply mt-[52vw] overflow-visible;
+}
+
+.hovered_img {
+	width: 300px;
+	height: 150px;
+	border-radius: 10px;
+	object-fit: cover;
+	object-position: center;
+	position: absolute;
+	left: 0;
+	top: -30%;
+	transition: opacity 200ms ease-in-out;
+}
+
+.title {
+	@apply flex justify-center;
+}
+
+.title h1 {
+	@apply mt-[6vw] text-left font-slussen_compressed_black uppercase text-[15vw] md:text-[8vw] lg:text-[8vw] tracking-[-0.1vw] leading-[9vw] md:leading-[7vw] lg:leading-[8vw];
+}
+
+.container {
+	@apply relative h-[300vh];
+	overflow: visible;
+}
+
+.container .sticky_section {
+	@apply mt-[12vw] w-full sticky top-[10vw] flex overflow-hidden;
+}
+
+.project_container {
+	@apply flex gap-[7vw];
+}

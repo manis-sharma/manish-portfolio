@@ -1,0 +1,7 @@
+.contact {
+	@apply h-[200vh] w-full flex justify-center items-center;
+}
+
+.contact span {
+	@apply flex justify-center sticky top-[45%] bg-white;
+}

@@ -1,0 +1,31 @@
+.hero {
+	@apply flex flex-col justify-between items-start h-screen;
+}
+
+.main_text {
+	@apply font-germanica text-center text-[23vw] leading-[24vw] text-blue tracking-[1vw] capitalize;
+}
+
+.sub_text {
+	@apply font-slussen_expended_black uppercase text-[9vw] md:text-[4.5vw] mt-3 leading-[100%] tracking-[-0.01em];
+}
+
+.text {
+	@apply font-slussen_bold uppercase text-grey text-[5vw] md:text-[2vw] lg:text-[1.2vw] mt-3 tracking-[-0.01em];
+}
+
+.bottom {
+	@apply mb-8 w-full flex flex-col md:flex-row justify-between;
+}
+
+.icons {
+	@apply flex flex-row mt-5 md:mt-0;
+}
+
+.explore {
+	@apply w-[30vw] md:w-[18vw] lg:w-[10vw] ml-3 mr-0 mt-5 md:mt-0 md:ml-0 md:mr-1 text-left md:text-right font-slussen_compressed_black uppercase text-[7vw] md:text-[3vw] lg:text-[2.2vw] tracking-[-0.1vw] leading-[6vw] md:leading-[3vw] lg:leading-[2.1vw] relative flex flex-row items-center;
+}
+
+.border {
+	@apply w-[2px] h-[100%] bg-blue absolute top-0 lg:left-[10.5vw] md:left-[18.5vw] left-[-0.5rem];
+}

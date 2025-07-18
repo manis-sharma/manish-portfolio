@@ -1,0 +1,28 @@
+.contacts {
+	@apply h-screen flex justify-center items-center bg-white text-black;
+}
+
+.container {
+	@apply h-screen w-screen flex flex-col justify-between sticky top-0 left-0 px-10;
+	z-index: 2;
+}
+
+.container h1 {
+	@apply mt-8 mb-8 w-[90vw] md:w-[40vw] lg:w-[60vw] text-left font-slussen_compressed_black uppercase text-[25vw] md:text-[12vw] lg:text-[15vw] tracking-[-0.1vw] leading-[20vw] md:leading-[10vw] lg:leading-[12vw];
+}
+
+.container span {
+	@apply text-blue;
+}
+
+.upper {
+	@apply w-full h-full flex flex-col items-start justify-start;
+}
+
+.icons {
+	@apply flex flex-row mt-5 md:mt-0;
+}
+
+.container p {
+	@apply mb-12 font-slussen_regular uppercase text-[4vw] md:text-[3vw] lg:text-[2vw] tracking-[-0.1vw] leading-[9vw] md:leading-[7vw] lg:leading-[1vw];
+}

@@ -1,0 +1,20 @@
+.project {
+	@apply h-[400px] w-[400px] p-6 flex flex-col justify-between relative border border-white;
+
+	// Add a background color
+	background-color: rgba(22, 22, 22, 0.201);
+
+	backdrop-filter: blur(7px);
+
+	&:hover {
+		@apply cursor-pointer;
+	}
+}
+
+.project h3 {
+	@apply w-full md:w-[30vw] lg:w-[20vw] text-left text-[5.5vw] md:text-[4vw] lg:text-[2vw] leading-[5vw] md:leading-[3.5vw] lg:leading-[1.9vw] font-slussen_expended_black uppercase text-blue overflow-hidden;
+}
+
+.project p {
+	@apply mt-3 md:mt-5 w-full lg:w-[17vw] text-left font-slussen_expended_black text-[3.5vw] md:text-[2.2vw] lg:text-[1.3vw] leading-[4vw] md:leading-[2.5vw] lg:leading-[1.7vw] overflow-hidden;
+}

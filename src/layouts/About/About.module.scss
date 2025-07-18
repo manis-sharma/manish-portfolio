@@ -1,0 +1,39 @@
+.about {
+	@apply h-full flex flex-col md:flex-row justify-center items-start relative mt-[20vw];
+}
+
+.about_me {
+	@apply mb-2 md:mb-0 relative md:sticky md:top-[36%] lg:w-[150px] md:w-[130px] sm:w-[130px] flex flex-row items-start;
+}
+
+.about_me span {
+	@apply text-left font-slussen_compressed_black uppercase text-[15vw] md:text-[8vw] lg:text-[10vw] tracking-[-0.1vw] leading-[9vw] md:leading-[7vw] lg:leading-[8vw];
+}
+
+.border {
+	@apply hidden md:block w-[5px] h-[100%] bg-blue absolute top-0 md:right-[8.7rem] lg:right-[10rem];
+}
+
+.texts {
+	@apply ml-0 md:ml-[25vw] mt-[2vw] md:mt-[10vw];
+}
+
+.text {
+	@apply my-[50vw] lg:my-[30vw];
+}
+
+.text:nth-child(1) {
+	@apply mt-0;
+}
+
+.text:last-child {
+	@apply mb-0;
+}
+
+.text h3 {
+	@apply w-full md:w-[45vw] lg:w-[25vw] text-left text-[8vw] md:text-[3.4vw] lg:text-[2vw] leading-[7vw] md:leading-[2.8vw] lg:leading-[1.9vw] font-slussen_expended_black uppercase text-blue;
+}
+
+.text p {
+	@apply mt-3 md:mt-5 w-full lg:w-[30vw] text-left font-slussen_medium text-[4vw] md:text-[2vw] lg:text-[1.3vw] leading-[4.8vw] md:leading-[2.5vw] lg:leading-[1.5vw];
+}

@@ -1,0 +1,29 @@
+.main {
+	@apply px-[4.4vw] relative;
+}
+
+.bg {
+	position: fixed;
+	z-index: -11;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.324);
+	background-image: radial-gradient(
+			at 67% 100%,
+			var(--gradient-blue) 0px,
+			transparent 50%
+		),
+		radial-gradient(at 31% 100%, var(--gradient-blue) 0px, transparent 50%);
+}
+
+.progress_bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background: var(--blue);
+	transform-origin: 0%;
+
+	z-index: 2;
+}

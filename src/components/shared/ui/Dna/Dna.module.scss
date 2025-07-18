@@ -1,0 +1,9 @@
+.dna {
+	@apply w-full h-screen fixed;
+	z-index: -12;
+}
+
+.dnaLight {
+	@apply w-full h-screen sticky top-0;
+	z-index: 1;
+}
