@@ -10,17 +10,29 @@ const germanica = localFont({
 	weight: '500',
 })
 
+
+
+
+
 const slussenCompressedBlack = localFont({
 	src: './fonts/Slussen-Compressed-Black.otf',
 	variable: '--font-slussen-compressed-black',
 	weight: '900',
 })
 
+
+
+
+
 const slussenExpendedBlack = localFont({
 	src: './fonts/Slussen-Expanded-Black.otf',
 	variable: '--font-slussen-expended-black',
 	weight: '900',
 })
+
+
+
+
 
 const slussenMedium = localFont({
 	src: './fonts/Slussen-Medium.otf',
@@ -34,17 +46,26 @@ const slussenRegular = localFont({
 	weight: '900',
 })
 
+
+
+
 const slussenSemibold = localFont({
 	src: './fonts/Slussen-Semibold.otf',
 	variable: '--font-slussen-semibold',
 	weight: '900',
 })
 
+
+
+
 const slussenBold = localFont({
 	src: './fonts/Slussen-Bold.otf',
 	variable: '--font-slussen-bold',
 	weight: '900',
 })
+
+
+
 
 export const metadata: Metadata = {
 	title: 'Manish Sharma | Full Stack Developer',
