@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.scss'
 import AnimatedParticles from '@/components/shared/ui/Particles/AnimatedParticles'
-import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const germanica = localFont({
 	src: './fonts/Germanica.ttf',
