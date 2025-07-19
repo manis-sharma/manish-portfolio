@@ -31,15 +31,7 @@ If you find this project helpful, please consider **starring** ⭐ this reposito
 Check out the live portfolio here!
 [samadov.dev](https://samadov.dev)
 
-## 📸 Screenshots
 
-**Hero:**
-
-<img src="https://github.com/GamalSamadov/portfolio/blob/main/screenshots/hero.png?raw=true" alt="Hero" width="800" />
-
-**About:**
-
-<img src="https://github.com/GamalSamadov/portfolio/blob/main/screenshots/about.png?raw=true" alt="Hero" width="800" />
 
 **Get in touch:**
 
