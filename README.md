@@ -35,7 +35,7 @@ Check out the live portfolio here!
 
 **Get in touch:**
 
-<img src="https://github.com/GamalSamadov/portfolio/blob/main/screenshots/contact.png?raw=true" alt="Hero" width="800" />
+<img src="https://github.com/manis-sharma/portfolio/blob/main/screenshots/contact.png?raw=true" alt="Hero" width="800" />
 
 
 
@@ -46,7 +46,7 @@ Follow these steps to run the project locally:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/gamalsamadov/portfolio.git
+   git clone https://github.com/manis-sharma/portfolio.git
    ```
 
 2. **Install dependencies**
