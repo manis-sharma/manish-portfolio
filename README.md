@@ -33,11 +33,6 @@ Check out the live portfolio here!
 
 
 
-**Get in touch:**
-
-<img src="https://github.com/manis-sharma/portfolio/blob/main/screenshots/contact.png?raw=true" alt="Hero" width="800" />
-
-
 
 ## 🚀 Getting Started
 
@@ -78,6 +73,4 @@ You can fix the repo and submit a pull request if you'd like to contribute. Let'
 
 Feel free to reach out to me if you have any questions or feedback!
 
-- Email: info@samadov.dev
-- Instagram: [@samadov.dev](https://www.instagram.com/janob.dev/)
-- LinkedIn: [En. Samadov J.](https://linkedin.com/in/gamalsamadov)
+- Email: manish.234th@gmail.com
