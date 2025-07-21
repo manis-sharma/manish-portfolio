@@ -29,7 +29,7 @@ If you find this project helpful, please consider **starring** ⭐ this reposito
 ## 🌐 Live Demo
 
 Check out the live portfolio here!
-[samadov.dev](https://samadov.dev)
+[manish.dev](https://manishkharel.vercel.app)
 
 
 
